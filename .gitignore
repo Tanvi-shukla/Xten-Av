@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# pytest / playwright
+.pytest_cache/
+test-results/
+playwright-report/
+playwright/.cache/
+report.html
+assets/
+
+# Env / secrets
+.env
+
+# Editor / OS
+.vscode/
+.DS_Store
